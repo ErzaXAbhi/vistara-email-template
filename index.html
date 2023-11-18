@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Sulphur+Point:wght@300;400;700&display=swap");
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-size: 16px;
+      }
+
+      body {
+        /* font-family: "Playfair Display", serif; */
+        font-family: "Sulphur Point", sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .logo {
+        font-size: 2rem;
+        color: purple;
+        font-weight: 700;
+        word-spacing: -3px;
+      }
+
+      .btn {
+        /* margin-left: 6rem; */
+        padding: 0.5rem 1rem;
+        background: #000;
+        border-radius: 5px;
+        border: none;
+      }
+
+      .btn a {
+        text-decoration: none;
+        color: #ffff;
+        font-family: "Sulphur Point", sans-serif;
+      }
+
+      table {
+        background: linear-gradient(
+          90deg,
+          hsla(40, 63%, 85%, 1) 0%,
+          hsla(22, 94%, 79%, 1) 100%
+        );
+      }
+
+      h2 {
+        font-size: 1.5rem;
+        text-transform: uppercase;
+        text-align: justify;
+        padding-top: 1rem;
+      }
+
+      p {
+        font-weight: 400;
+        text-align: justify;
+        font-size: 1.1rem;
+      }
+
+      img {
+        border-radius: 5px;
+      }
+
+      h3 {
+        font-size: 1.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- table 1 -->
+    <table border="0" width="40%" cellspacing="10px">
+      <tr>
+        <td align="center">
+          <!-- logo -->
+          <span class="logo">Vistara</span>
+          <img src="./plane.png" alt="" width="40px" />
+        </td>
+        <td align="center">
+          <!-- button -->
+          <button class="btn">
+            <a href="#">Login | Register</a>
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <!-- heading -->
+          <h2>welcome aboard the stadium in the sky.</h2>
+          <p>
+            Celebrate the biggest cricket tournament as you enjoy the action
+            LIVE at 35000 feet on your in-flight entertainment screen.
+          </p>
+          <br />
+          <button class="btn"><a href="#">Learn More</a></button>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <img src="./plane.jpg" alt="" width="100%" />
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2" align="left">
+          <h3>Lorem ipsum dolor sit</h3>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam
+            nulla beatae sapiente laborum eos cupiditate asperiores laudantium
+            iste modi mollitia!
+          </p>
+        </td>
+      </tr>
+    </table>
+
+    <!-- footer -->
+
+    <table border="0" width="40%" cellspacing="10px">
+      <tr>
+        <td align="center">
+          <h6>abhijitparad &copy; 2023</h6>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem
+            ullam rerum, illum fugiat accusantium dicta!
+          </p>
+
+          <h5>
+            <i class="fa-regular fa-envelope"></i>: abhijeetparad@gmail.com
+          </h5>
+          <h5><i class="fa-solid fa-mobile-screen"></i>: +91 8600074633</h5>
+          <h6>
+            Follow me on:
+            <span
+              ><i class="fa-brands fa-x-twitter"></i>
+              <span><i class="fa-brands fa-instagram"></i> </span
+            ></span>
+            <span><i class="fa-brands fa-linkedin"></i></span>
+          </h6>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
